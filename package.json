@@ -1,0 +1,15 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "Node basic API",
+  "author": "Ludovic Bekaert",
+  "main": "server.js",
+  "scripts": {
+    "start" : "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.0.0",
+    "mongoose": "~3.6.13",
+    "body-parser": "~1.0.1"
+  }
+}
