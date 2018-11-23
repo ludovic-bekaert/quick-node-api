@@ -1,0 +1,20 @@
+{
+  "demoFakeLogin": {
+    "method": "POST",
+    "url": "/login",
+    "request": {
+      "body": {
+        "email": "email|required",
+        "password": "string|required"
+      }
+    },
+    "response": {
+      "success": {
+        "status": 204,
+        "headers": {
+          "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI..."
+        }
+      }
+    }
+  }
+}
