@@ -40,6 +40,7 @@ The request is used for the validation. The validation is separated into two obj
 
 ## Validation
 Here is the list of the validation options
+
 | Key         | Description                             |
 | ----------- | --------------------------------------- |
 | email       | Check if the variable is a valid email  |
@@ -47,6 +48,7 @@ Here is the list of the validation options
 | string      | Check if the variable is a string       |
 
 Upcoming validation options
+
 | Key         | Description                              |
 | ----------- | ---------------------------------------- |
 | boolean     | Check if the variable is a boolean       |
