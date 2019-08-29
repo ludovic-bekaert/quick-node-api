@@ -54,4 +54,4 @@ app.use('/api', router);
 // START THE SERVER
 // =============================================================================
 app.listen(port);
-console.log('Node ready on port ' + port);
+console.log('Fake api ready on http://localhost:' + port + '/api');
